@@ -1095,6 +1095,11 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+.image-ab {
+  min-height: 0px;
+  min-width: 0px;
+}
+
 @media screen and (max-width: 991px) {
   .container {
     max-width: 728px;
