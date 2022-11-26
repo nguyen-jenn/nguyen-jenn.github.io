@@ -399,7 +399,7 @@
   font-weight: 400;
 }
 
-.image-3 {
+.banner {
   min-height: 0px;
   min-width: 0px;
   margin-top: 40px;
@@ -676,7 +676,7 @@
   padding-top: 40px;
 }
 
-.image-19 {
+.image-banner {
   min-height: 0px;
   min-width: 0px;
   padding-top: 20px;
@@ -1069,6 +1069,18 @@
   color: #00e;
 }
 
+.image-74 {
+  padding-top: 16px;
+}
+
+.image-2x2 {
+  padding-top: 16px;
+}
+
+.image-3x3 {
+  padding-top: 16px;
+}
+
 @media screen and (max-width: 991px) {
   .container {
     max-width: 728px;
@@ -1183,7 +1195,7 @@
     display: none;
   }
 
-  .image-3 {
+  .banner {
     min-height: 1px;
     min-width: 1px;
   }
@@ -1253,9 +1265,9 @@
     min-width: 1px;
   }
 
-  .image-19 {
+  .image-banner {
     min-height: 1px;
-    min-width: 1px;
+    min-width: 100vw;
   }
 
   .image-20 {
@@ -1456,6 +1468,10 @@
   .image-65 {
     min-height: 1px;
     min-width: 1px;
+  }
+
+  .image-65.image-banner {
+    min-width: 100vw;
   }
 
   .image-66 {
